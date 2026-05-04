@@ -1,0 +1,33 @@
+# Data ingestion & APIs
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Data manipulation
+pandas==2.2.0
+numpy==1.26.4
+
+# Visualization
+plotly==5.19.0
+matplotlib==3.8.3
+seaborn==0.13.2
+
+# Machine Learning
+scikit-learn==1.4.1
+xgboost==2.0.3
+prophet==1.1.5
+
+# MLOps
+mlflow==2.11.1
+
+# API / App
+fastapi==0.110.0
+uvicorn==0.27.1
+streamlit==1.32.0
+
+# Jupyter
+jupyter==1.0.0
+ipykernel==6.29.3
+
+# Calidad de código
+black==24.2.0
+flake8==7.0.0
