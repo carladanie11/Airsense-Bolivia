@@ -43,6 +43,6 @@ PARAMETERS = {
 # ── MLflow ───────────────────────────────────────────
 MLFLOW_TRACKING_URI = str(BASE_DIR / "mlruns")
 EXPERIMENT_NAME = "airsense-bolivia-air-quality"
+print(f"✅ Configuración cargada | AirSense LATAM | {os.getenv('ENV', 'development')}")
 
-print(f"✅ Configuración cargada | AirSense Bolivia | {os.getenv('ENV', 'development')}")
 
