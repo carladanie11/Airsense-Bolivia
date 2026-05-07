@@ -18,6 +18,7 @@ FIGURES_DIR = REPORTS_DIR / "figures"
 # ── API OpenAQ ──────────────────────────────────────
 OPENAQ_API_KEY = os.getenv("OPENAQ_API_KEY", "")
 OPENAQ_BASE_URL = "https://api.openaq.org/v3"
+WAQI_TOKEN = os.getenv("WAQI_TOKEN", "")
 
 # ── Bolivia ─────────────────────────────────────────
 BOLIVIA_COUNTRY_ID = 26
@@ -44,3 +45,4 @@ MLFLOW_TRACKING_URI = str(BASE_DIR / "mlruns")
 EXPERIMENT_NAME = "airsense-bolivia-air-quality"
 
 print(f"✅ Configuración cargada | AirSense Bolivia | {os.getenv('ENV', 'development')}")
+
